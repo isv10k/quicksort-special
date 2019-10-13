@@ -46,7 +46,6 @@ func quickSort(array: inout [Int], startIndex: Int, endIndex: Int) -> [Int] {
     
 }
 
-//var unsorted:[Int] = [10, 3, 3, 9, 3, 3, 3, 3, 3, 3, 8, -1, 26]
 var d = quickSort(array: &digits, startIndex: 0, endIndex: digits.count-1)
-print(digits)
+print(d)
 
